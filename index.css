@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 12rem;
+
+}
+#value {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.btn-container .btn_increase, .btn_decrease, .btn_reset  {
+    cursor: pointer;
+}
